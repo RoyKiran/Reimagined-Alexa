@@ -11,7 +11,8 @@ client = boto3.resource('dynamodb')        #Initialize DynamoDb
 
 #-------------- Create Questions, Options and Answers -------------------
 
-questions = ["Please tell me the last 4 digits of your bill number","Please let us know your age","How would you rate the ambience?","Please rate the food between 1-5 with 1 as poor and 5 as Great", "Please rate the service as " , "Would you recommend this place to your friends?","Should we improvement in food "]
+questions = ["Please tell me the last 4 digits of your bill number","How would you rate the ambience?","Please rate the food between 1-5 with 1 as poor and 5 as Great", "Please rate the service as " , "Would you recommend this place to your friends?",
+            "Should we improve in any of the below category or just say Nothing if you like us!" ,""]
 
 options = ["","","Good, Average, Bad","","Good,Average,Bad","Yes, No","Quality, Quantity, Variety or Nothing"]
 
