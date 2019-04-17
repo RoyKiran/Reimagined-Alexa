@@ -27,9 +27,10 @@ Imagine if feedbacks in hotels/restaurants were taken on Alexa... Just to have a
 	</ol>
 	<br/>
   
-	<b> <h4> Step 2: Setup Dynamo DB </h4> 	</b>
-	  Simply create a table "skill"
+  <b> <h4> Step 2: Setup Dynamo DB </h4> 	</b>
+  Simply create a table "skill"
   <br/>
   
-	<b>	<h4> Step 3: Host your code </h4> </b>
+  <b> <h4> Step 3: Host your code </h4> </b>
+  Link Dynamo DB and Alexa to Lambda function and finally code it.
 	
